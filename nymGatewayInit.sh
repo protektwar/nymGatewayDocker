@@ -1,0 +1,1 @@
+docker run -t --init --name nymGateway -v /mixnodes:/home/nym/.nym/gateways -p 1789:1789 -p 1790:1790 -p 9000:9000 protektwar/nymgateway:0.10.1 init --clients-announce-host 161.97.150.231 --clients-host 0.0.0.0 --mix-host 0.0.0.0 --mix-announce-host 161.97.150.231 --id protektwars7Gateway
